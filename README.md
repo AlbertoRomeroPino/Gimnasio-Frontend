@@ -72,3 +72,4 @@ export default defineConfig([
 ])
 ```
 "# Gimnasio-Frontend" 
+"# Gimnasio-Frontend" 
