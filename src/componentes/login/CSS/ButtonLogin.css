@@ -1,0 +1,28 @@
+.action-container {
+  margin-top: 1rem; /* mt-4 */
+}
+
+.btn-submit {
+  display: flex;
+  height: 3.5rem; /* h-14 */
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.75rem; /* rounded-xl */
+  background-color: #2563eb; /* Color primary */
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-submit:hover {
+  background-color: rgba(37, 99, 235, 0.9);
+}
+
+.btn-submit:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #2563eb, 0 0 0 4px #101622;
+}

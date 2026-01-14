@@ -1,0 +1,38 @@
+/* Contenedor principal del logo y título */
+.brand-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem; /* mb-8 */
+}
+
+/* El cuadro azul que rodea al logo */
+.logo-wrapper {
+  margin-bottom: 1rem; /* mb-4 */
+  display: flex;
+  height: 3.5rem; /* h-14 */
+  width: 3.5rem;  /* w-14 */
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem; /* rounded-2xl */
+  background-color: #2563eb; /* Color 'primary' (ajustar al tuyo) */
+  overflow: hidden; /* Para que la imagen no se salga de las esquinas redondeadas */
+}
+
+/* Estilo para la imagen del logo */
+.brand-logo {
+  width: 80%;      /* Tamaño de la imagen dentro del cuadro */
+  height: auto;
+  object-fit: contain;
+}
+
+/* Estilo del título */
+.brand-title {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: 700;    /* font-bold */
+  line-height: 1.25;   /* leading-tight */
+  letter-spacing: -0.025em; /* tracking-light */
+  margin: 0;
+}
